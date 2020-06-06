@@ -17,7 +17,7 @@ class School
   end
   def sort 
     new_hash = {}
-    roster.keys.each.sort
+    roster.keys.sort.each do ||
 end
 
 # code here!
