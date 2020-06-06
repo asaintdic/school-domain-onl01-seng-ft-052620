@@ -9,11 +9,11 @@ class School
      @name
   end 
   def roster=(roster)
-      
+      roster = Hash.new
     @roster = roster
   end
   def roster
-    roster = Hash.new
+    @roster
   end
   
 end
