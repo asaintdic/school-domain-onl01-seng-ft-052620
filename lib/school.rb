@@ -8,13 +8,9 @@ class School
   def name 
      @name
   end 
-  def new=(roster)
-    roster = {}
-    @roster = roster
-  end
   def roster
-    @roster
-  end 
+    roster = roster.new
+    roster =
   
 end
 
