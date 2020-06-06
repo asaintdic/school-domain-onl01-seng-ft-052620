@@ -4,7 +4,9 @@ class School
   def initialize(name)
     @roster = {} 
   end
+  
   def add_student(name, grade)
+    unless @roster[grade] = []
   end
 end
 
