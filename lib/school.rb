@@ -16,7 +16,8 @@ class School
     @roster[number]
   end
   def sort 
-    @roster.
+    new_hash = {}
+    
 end
 
 # code here!
