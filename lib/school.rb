@@ -1,11 +1,8 @@
 class School
+  attr_reader :roster
   
-  new = {
-    :roster => {}
-  }
-  
-  def intialize(name)
-     @name = name 
+  def initialize(name)
+    
   
 end
 
