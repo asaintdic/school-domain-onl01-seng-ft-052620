@@ -4,7 +4,10 @@ class School
   end
   def name 
      @name
-    end 
+  end 
+  def new(roster)
+    roster = {}
+  end
 end
 
 # code here!
