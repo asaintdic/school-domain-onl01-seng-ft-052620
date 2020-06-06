@@ -12,7 +12,9 @@ class School
      @roster[grade] ||= []
      @roster[grade] << name
   end
-  def grade(num)
+  def grade(number)
+    
+  end
 end
 
 # code here!
