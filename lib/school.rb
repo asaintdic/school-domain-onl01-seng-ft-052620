@@ -9,6 +9,7 @@ class School
      @name
   end 
   def roster=(roster)
+   
     @roster = roster
   end
   def roster
